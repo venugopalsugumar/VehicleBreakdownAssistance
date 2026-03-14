@@ -104,23 +104,28 @@ opacity:0.9;
 /* BUTTON */
 
 .main-btn{
-background:#22c55e;
+background:#ef4444;
 color:white;
-padding:14px 30px;
+padding:15px 36px;
 border:none;
-border-radius:8px;
+border-radius:6px;
 font-size:16px;
+font-weight:600;
+letter-spacing:0.5px;
 cursor:pointer;
-transition:0.3s;
+text-transform:uppercase;
+transition:all 0.3s ease;
+box-shadow:0 6px 15px rgba(0,0,0,0.3);
 }
 
 .main-btn:hover{
-background:#16a34a;
-transform:scale(1.05);
+background:#dc2626;
+transform:translateY(-2px);
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
 }
 
 .main-btn:active{
-transform:scale(0.95);
+transform:translateY(0);
 }
 
 
