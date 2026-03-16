@@ -1,17 +1,19 @@
-DOCTYPE html>
-<html lang="e<!n">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Artisan Booking System</title>
+<title>RoadAssist | Vehicle Breakdown Assistance</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<!-- Professional Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+<!-- Font Awesome Icons -->
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -19,149 +21,110 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 <body>
 
+<header>
 
-<header class="navbar">
+<div class="container">
 
-<div class="logo">
-<i class="fa-solid fa-screwdriver-wrench"></i>
-Artisan Booking System
-</div>
+<h1 class="logo">RoadAssist</h1>
 
 <nav>
-
-<a class="active" href="#">Home</a>
-<a href="#">Artisans</a>
-<a href="#">Bookings</a>
-<a href="#">My Bookings</a>
-<a href="#">Login</a>
-<a href="#">Register</a>
-
-<button class="start-btn">Get Started</button>
-
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="request.html">Request Help</a>
+<a href="booking.html">Book Service</a>
+<a href="contact.html">Contact</a>
 </nav>
+
+</div>
 
 </header>
 
 
-
 <section class="hero">
 
-<div class="hero-left">
+<div class="container">
 
-<h1>
-Find & Book Trusted
-<span>Artisans Easily</span>
-</h1>
+<h2>24/7 Vehicle Breakdown Assistance</h2>
+<p>Fast and reliable roadside help for towing, battery jumpstart, fuel delivery and vehicle repairs.</p>
 
-<p>
-Skilled professionals at your doorstep — Fast, Reliable & Affordable.
-</p>
-
-<button class="hero-btn">
-Book an Artisan →
+<button class="main-btn" onclick="window.location.href='request.html'">
+Request Emergency Help
 </button>
-
-<div class="customers">
-<i class="fa-solid fa-users"></i>
-100+ Happy Customers
-</div>
-
-</div>
-
-
-<div class="hero-right">
-
-<img src="https://cdn-icons-png.flaticon.com/512/4149/4149645.png">
 
 </div>
 
 </section>
-
 
 
 <section class="services">
 
-<h2>Explore <span>Our Services</span></h2>
+<div class="container">
+
+<h2>Our Services</h2>
 
 <div class="service-grid">
 
-
 <div class="service-card">
-<i class="fa-solid fa-wrench"></i>
-<h3>Plumbing</h3>
-<p>Fix leaks & pipes</p>
+<i class="fa-solid fa-truck"></i>
+<h3>Car Towing</h3>
+<p>Professional towing service to the nearest garage.</p>
 </div>
 
-
 <div class="service-card">
-<i class="fa-solid fa-bolt"></i>
-<h3>Electrical</h3>
-<p>Wiring & Repairs</p>
+<i class="fa-solid fa-car-battery"></i>
+<h3>Battery Jumpstart</h3>
+<p>Quick jumpstart for dead batteries anywhere.</p>
 </div>
 
-
 <div class="service-card">
-<i class="fa-solid fa-hammer"></i>
-<h3>Carpentry</h3>
-<p>Furniture & Doors</p>
+<i class="fa-solid fa-gas-pump"></i>
+<h3>Fuel Delivery</h3>
+<p>Emergency fuel delivered directly to your location.</p>
 </div>
 
-
 <div class="service-card">
-<i class="fa-solid fa-broom"></i>
-<h3>Cleaning</h3>
-<p>Home Cleaning</p>
+<i class="fa-solid fa-screwdriver-wrench"></i>
+<h3>Vehicle Repair</h3>
+<p>On-site mechanic assistance for breakdown vehicles.</p>
 </div>
 
-
-<div class="service-card">
-<i class="fa-solid fa-paint-roller"></i>
-<h3>Painting</h3>
-<p>Interior & Exterior</p>
 </div>
-
-
-<div class="service-card">
-<i class="fa-solid fa-toolbox"></i>
-<h3>Appliance</h3>
-<p>Repair & Service</p>
-</div>
-
 
 </div>
 
 </section>
 
 
+<section class="cta">
 
-<section class="stats">
+<div class="container">
 
-<div class="stat">
-<i class="fa-solid fa-users"></i>
-<h3>500+</h3>
-<p>Artisans</p>
-</div>
+<h2>Need Immediate Roadside Help?</h2>
 
-<div class="stat">
-<i class="fa-solid fa-calendar"></i>
-<h3>2000+</h3>
-<p>Bookings</p>
-</div>
+<p>Book our emergency assistance service now.</p>
 
-<div class="stat">
-<i class="fa-solid fa-shield"></i>
-<h3>100%</h3>
-<p>Trusted</p>
-</div>
+<button class="main-btn" onclick="window.location.href='request.html'">
+Request Emergency Help
+</button>
 
-<div class="stat">
-<i class="fa-solid fa-headset"></i>
-<h3>24/7</h3>
-<p>Support</p>
+<button onclick="window.location.href='booking.html'" class="main-btn">
+Book Service
+</button>
+
 </div>
 
 </section>
 
+
+<footer>
+
+<div class="container">
+
+<p>© 2026 RoadAssist | Vehicle Breakdown Assistance</p>
+
+</div>
+
+</footer>
 
 </body>
 </html>
